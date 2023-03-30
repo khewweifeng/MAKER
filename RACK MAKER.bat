@@ -1,3 +1,4 @@
+color 6f
 @ECHO OFF
 :start
 cls
@@ -10,6 +11,3 @@ if "%c%" == "a" / "%c%" == "b" (
 ) else (
   echo Invalid input! Try again.
   goto start
-)
-
-pause
