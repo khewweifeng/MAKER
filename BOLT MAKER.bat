@@ -13,10 +13,10 @@ set /p agv= "AGILE VERSION: "
 set /p adv= "AUDIT VERSION: "
 
 
-set "output=FY%fy% - IN BLOCK - DRIVER - %pn% - %b% - %em% - W%mw%"
+set "output=FY%fy% - IN BLOCK - %pn% - %b% - %em% - W%mw%"
 set "output2=%proj% - %swb%"
 echo.
-echo %pn% - W%mw%
+echo %pn%
 echo %proj% - %swb%
 echo Error = %em%
 echo Agile version = %agv%
@@ -49,7 +49,6 @@ set output=%output:x=X%
 set output=%output:y=Y%
 set output=%output:z=Z%
 
-
 set output2=%output2:a=A%
 set output2=%output2:b=B%
 set output2=%output2:c=C%
@@ -77,7 +76,32 @@ set output2=%output2:x=X%
 set output2=%output2:y=Y%
 set output2=%output2:z=Z%
 
-
+set pn=%pn:a=A%
+set pn=%pn:b=B%
+set pn=%pn:c=C%
+set pn=%pn:d=D%
+set pn=%pn:e=E%
+set pn=%pn:f=F%
+set pn=%pn:g=G%
+set pn=%pn:h=H%
+set pn=%pn:i=I%
+set pn=%pn:j=J%
+set pn=%pn:k=K%
+set pn=%pn:l=L%
+set pn=%pn:m=M%
+set pn=%pn:n=N%
+set pn=%pn:o=O%
+set pn=%pn:p=P%
+set pn=%pn:q=Q%
+set pn=%pn:r=R%
+set pn=%pn:s=S%
+set pn=%pn:t=T%
+set pn=%pn:u=U%
+set pn=%pn:v=V%
+set pn=%pn:w=W%
+set pn=%pn:x=X%
+set pn=%pn:y=Y%
+set pn=%pn:z=Z%
 
 echo.
 echo.
