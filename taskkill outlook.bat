@@ -1,2 +1,2 @@
 @echo off
-taskkill /im outlook.exe /f
+taskkill /im outlook.exe /im olk.exe /f

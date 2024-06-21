@@ -6,7 +6,7 @@ set /p pn= "PLATFORM NAME: "
 set /p b= "BIOS REVISION: "
 set /p em= "ERROR MESSAGE: "
 set /p mw= "W10 OR W11: "
-set /p em2= "FULL VANTAGE ERROR MESSAGE: "
+
 echo.
 set /p proj="PROJECT NUMBER: "
 set /p swb="SWB NUMBER: "
@@ -20,7 +20,6 @@ echo.
 echo %pn%
 echo %proj% - %swb%
 echo Error = %em%
-echo %em2%
 echo Agile version = %agv%
 echo Audit version = %adv%
 
@@ -110,7 +109,7 @@ echo.
 echo %output%
 echo %output% | clip
 echo.
-echo Hi team, 
+echo Hi team,
 echo.
 echo System = %pn%
 echo.
@@ -120,9 +119,7 @@ echo Driver version mismatch
 echo.
 echo Agile version = %agv%
 echo Audit version = %adv%
-echo.
-echo %em2%
+
 
 goto start
 pause
-

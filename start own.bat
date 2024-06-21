@@ -1,1 +1,1 @@
-start msedge --new-window --start-maximized https://dell-my.sharepoint.com/:x:/r/personal/weifeng_khew_dellteam_com/Documents/FY24%20APR%20Sustaining%20Test%20Metrics%20Template%205.5.xlsx?d=wad9d2b83062d49c58d12e47d41b6b051&csf=1&web=1&e=rsCeZE
+start msedge --start-maximized https://is.gd/HGo7X6

@@ -1,2 +1,2 @@
 @echo off
-taskkill /im teams.exe /im outlook.exe /f
+taskkill /im teams.exe /im ms-teams.exe /f
