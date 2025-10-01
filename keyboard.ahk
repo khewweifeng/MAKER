@@ -34,11 +34,8 @@ return
 :*:exc  :: = exclude
 return
 
-!d::WheelDown
-return
-
-!s::wheelup
-return
+!s::Send {WheelUp 1}    ; Alt + S scrolls up
+!d::Send {WheelDown 1}  ; Alt + D scrolls down
 
 F10::send C:\Users\WeiFeng_Khew\OneDrive - Dell Technologies\Pictures\Screenshots
 return
@@ -49,3 +46,4 @@ return
 ^0::exitapp ; Assign ctrl-esc to exit the scr
 ^9::reload
 :*:code  ::+;*+;+;+;{enter}return{up}{home}{right 3} ;
+
